@@ -6,6 +6,25 @@
     <title>Google Maps JavaScript API Example</title>
     <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAApuqJ-ievoI8n0KBpKtZuyxTJQa0g3IQ9GZqIMmInSLzwtGDKaBSt40PUewe_UUsm_5pWXNbz5adklA"
       type="text/javascript"></script>
+      <script type="text/javascript" charset="utf-8">
+        var markers = [
+        {
+          'latitude': 37.818361,
+          'longitude': -122.478032,
+          'name': 'Golden Gate Bridge'
+        },
+        {
+          'latitude': 40.6897,
+          'longitude': -74.0446,
+          'name': 'Statue of Liberty'
+        },
+        {
+          'latitude': 38.889166,
+          'longitude': -77.035307,
+          'name': 'Washington Monument'
+        }
+        ];
+      </script>
       <%= javascript_include_tag 'application' %>
   </head>
   <body>

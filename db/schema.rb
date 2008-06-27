@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20080626030014) do
+ActiveRecord::Schema.define(:version => 20080627051703) do
 
   create_table "markers", :force => true do |t|
     t.decimal "lat"
@@ -17,6 +17,18 @@ ActiveRecord::Schema.define(:version => 20080626030014) do
     t.string  "found", :limit => 100
     t.string  "left",  :limit => 100
     t.string  "icon",  :limit => 100, :default => ""
+  end
+
+  create_table "stores", :force => true do |t|
+    t.string "name",     :limit => 50
+    t.string "address",  :limit => 100
+    t.string "address2", :limit => 100
+    t.string "city",     :limit => 50
+    t.string "state",    :limit => 2
+    t.string "zip",      :limit => 9
+    t.string "phone",    :limit => 15
+    t.string "lat",      :limit => 20
+    t.string "lng",      :limit => 20
   end
 
 end

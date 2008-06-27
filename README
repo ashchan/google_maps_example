@@ -1,7 +1,11 @@
-Sample codes from the book [Beginning Google Maps Applications with Rails and Ajax: From Novice to Professional](http://www.amazon.com/Beginning-Google-Maps-Applications-Rails/dp/1590597877)
+Sample codes from the book [Beginning Google Maps Applications with Rails and Ajax: From Novice to Professional](http://www.amazon.com/Beginning-Google-Maps-Applications-Rails/dp/1590597877).
 
-This sample is of Rails 2.1, using Sqlite3.
+The book's site is http://googlemapsbook.com/ .
 
-The source code from the book has some typos, and some of them don't work. I've tried my best to make the it work.
+This sample uses Rails 2.1 and Sqlite3.
+
+The source code from the book has some typos, and some of them don't work. I've tried my best to make it work.
+
+Thanks to the authors of the book, for bringing us this book, and for allowing me to use the source code and make it public on github.
 
 The Chinese translation of the book sucks, see http://blog.ashchan.com/archive/2008/06/25/professional-book/ .

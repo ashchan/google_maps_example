@@ -1,0 +1,69 @@
+# == Schema Information
+# Schema version: 20080627051703
+#
+# Table name: stores
+#
+#  id       :integer         not null, primary key
+#  name     :string(50)      
+#  address  :string(100)     
+#  address2 :string(100)     
+#  city     :string(50)      
+#  state    :string(2)       
+#  zip      :string(9)       
+#  phone    :string(15)      
+#  lat      :string(20)      
+#  lng      :string(20)      
+#
+
+store_1: 
+  name: The Original Ron Jon Surf Shop 
+  address: 901 Central Avenue 
+  city: Long Beach Island 
+  state: NJ 
+  zip: 08008 
+  phone: (609) 494-8844 
+store_2: 
+  name: One of aKind Ron Jon Surf Shop 
+  address: 4151 North Atlantic Avenue 
+  city: Cocoa Beach 
+  state: FL 
+  zip: 32931 
+  phone: (321) 799-8888 
+store_3: 
+  name: Ron Jon Surf Shop - Sunrise 
+  address: 2610 Sawgrass Mills Circle 
+  address2: Suite 1415 
+  city: Sunrise 
+  state: FL 
+  zip: 33323 
+  phone: (954) 846-1880 
+store_4: 
+  name: Ron Jon Surf Shop - Orlando 
+  address: 5160 International Drive 
+  city: Orlando 
+  state: FL 
+  zip: 32819 
+  phone: (407) 481-2555 
+store_5: 
+  name: Ron Jon Surf Shop - Key West 
+  address: 503 Front Street` 
+  city: Key West 
+  state: FL 
+  zip: 33040 
+  phone: (305) 293-8880 
+store_6: 
+  name: Ron Jon Surf Shop - California 
+  address: 20 City Blvd. 
+  address2: West Building C Suite 1 
+  city: Orange 
+  state: CA 
+  zip: 92868 
+  phone: (714) 939-9822 
+store_7: 
+  name: Ron Jon Cape Caribe Resort 
+  address: 1000 Shorewood Drive 
+  city: Cape Canaveral 
+  state: FL 
+  zip: 32920 
+  phone: (321) 328-2830 
+

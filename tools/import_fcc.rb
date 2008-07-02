@@ -25,7 +25,7 @@ process_file('CO.dat', 'fcc_locations.dat') do |line|
   latitude = sign * (lat_deg.to_f + lat_min.to_f / 60 + lat_sec.to_f / 3600)
   sign = (long_dir == 'W') ? -1 : 1
   longitude = sign * (long_deg.to_f + long_min.to_f / 60 + long_sec.to_f / 3600)
-  [unique_si, lat_deg, lat_min, lat_sec, latitude, long_deg, long_min, long_sec, long_dir, longitude].join('|')
+  [unique_si, lat_deg, lat_min, lat_sec, lat_dir, latitude, long_deg, long_min, long_sec, long_dir, longitude].join('|')
 end
 
 puts "Complete"

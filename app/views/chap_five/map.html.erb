@@ -9,10 +9,10 @@
 
       <%= javascript_include_tag 'prototype', 'application_chap_five' %>
 		<script type="text/javascript">
-			var markers = <%= @towers.to_json %>;
+			var markers = <%= (@towers.collect { |t| t.attributes }).to_json %>;
 		</script>
   </head>
   <body>
-    <div id="map" style="width: 800px; height: 600px"></div>
+    <div id="map" style="width: 800px; height: 700px"></div>
   </body>
 </html>

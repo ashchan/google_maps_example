@@ -1,7 +1,8 @@
 var map;
-var centerLatitude = 40.6897;
-var centerLongitude = -95.0446;
-var startZoom = 3;
+var centerLatitude = 19.5;
+var centerLongitude = -155.5; 
+var startZoom = 9;
+
 
 function addMarker(latitude, longitude, description) {
 	var marker = new GMarker(new GLatLng(latitude, longitude));

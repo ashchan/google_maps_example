@@ -5,12 +5,12 @@ class CreateTowers < ActiveRecord::Migration
       t.float :longitude
       t.string :owner_name, :limit => 200
       t.string :owner_address, :limit => 35
-      t.string :owner_state, :limit => 2
       t.string :owner_city, :limit => 20
+      t.string :owner_state, :limit => 2
       t.string :owner_zip, :limit => 10
       t.string :address, :limit => 35
-      t.string :state, :limit => 2
       t.string :city, :limit => 20
+      t.string :state, :limit => 2
       t.float :height
       t.float :elevation
       t.float :ohag
